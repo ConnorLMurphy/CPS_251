@@ -8,6 +8,7 @@ class MainViewModel : ViewModel() {
 
     fun addName (name:String){
         this.names = this.names + "\n" + name
+
     }
 
     fun getName ():String{
